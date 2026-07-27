@@ -25,3 +25,4 @@ elif choice == "2":
 
 else:
     print("❌ That wasn't a valid choice.")
+    print("Version 2 🚀")
