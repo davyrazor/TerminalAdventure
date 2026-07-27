@@ -1,0 +1,27 @@
+print("=" * 40)
+print("🏰 TERMINAL ADVENTURE")
+print("=" * 40)
+
+name = input("What is your name? ")
+
+print()
+print(f"Welcome, {name}!")
+print("You wake up inside a dark cave.")
+print("There are two tunnels.")
+
+print()
+print("1. Left Tunnel")
+print("2. Right Tunnel")
+
+choice = input("Choose (1 or 2): ")
+
+print()
+
+if choice == "1":
+    print("💰 You found treasure!")
+
+elif choice == "2":
+    print("🐉 A dragon appears!")
+
+else:
+    print("❌ That wasn't a valid choice.")
