@@ -21,7 +21,8 @@ if choice == "1":
     print("💰 You found treasure!")
 
 elif choice == "2":
-    print("🐉 A dragon appears!")
+    print("🐉 The dragon becomes your best friend!")
+    print("🍕 It gives you free pizza.")
 
 else:
     print("❌ That wasn't a valid choice.")
